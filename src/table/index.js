@@ -14,7 +14,7 @@ export default class Tabela extends Component {
     componentDidMount() {
         firebase.database().ref('/register').on('value', (snapshot) => {
             const register = [];
-            snapshot.forEach(function (childSnapshot) {
+            snapshot.forEach((childSnapshot) => {
                 var item = childSnapshot.val();
                 item.key = childSnapshot.key;
                 register.push(item);
