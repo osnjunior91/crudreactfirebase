@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Button } from '@material-ui/core';
 import './App.css';
 import Form from './form';
-import Table from './table';
+import Tabela from './table';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
             <Form/>
         </Grid>
         <Grid item container>
-          <Table/>
+          <Tabela/>
         </Grid>
       </Grid>
     </div>
