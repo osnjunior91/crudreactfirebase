@@ -29,7 +29,7 @@ export default class Form extends Component {
                         fullWidth
                     />
                     <Button style={{marginTop:20}} variant="contained" size="large" color="primary" fullWidth >
-                        Large
+                        Salvar Registro
                     </Button>
                 </Grid>
             </Grid>
